@@ -1,0 +1,10 @@
+baseURL: https://pedro.dev.br/
+languageCode: pt-br
+title: PedroHenrique
+theme: pedro.dev.br
+
+markup:
+  highlight:
+    lineNos: true
+    style: vs
+    tabWidth: 4

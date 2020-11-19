@@ -183,8 +183,12 @@ strong {
     color: #4c5fa0;
 }
 
-code {
+code,
+code * {
     font-family: "JetBrains Mono", "Fira Code", "Roboto Mono", SFMono-Regular, Menlo, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Monaco,Courier New", Courier, monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: .925em;
+    line-height: 17.0167px;
+    letter-spacing: 0.4px;
 }
 
 p > pre,
@@ -194,6 +198,7 @@ div > pre {
     background: #fff;
     padding: .0625em .3125em;
     border-radius: 3px;
+    overflow-x: auto;
 }
 
 p > code,
@@ -204,7 +209,6 @@ main > pre > code,
 div > pre > code {
     color: #00f;
     background: #fff;
-    font-size: .925em;
     text-align: left;
     -moz-tab-size: 2;
     -webkit-hyphens: none;
@@ -212,6 +216,11 @@ div > pre > code {
     tab-size: 2;
     hyphens: none;
     padding: .0625em .3125em;
+    border-radius: 3px;
+}
+
+mark {
+    background-color: yellow;
     border-radius: 3px;
 }
 

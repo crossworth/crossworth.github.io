@@ -8,3 +8,7 @@ markup:
     lineNos: true
     style: vs
     tabWidth: 4
+  goldmark:
+    renderer:
+      unsafe: true
+

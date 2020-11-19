@@ -1,0 +1,10 @@
+baseURL = "https://crossworth.github.io"
+languageCode = "pt-br"
+title = "PedroHenrique"
+theme = "pedro.dev.br"
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    style = "vs"
+    tabWidth = 4

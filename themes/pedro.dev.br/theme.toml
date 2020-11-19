@@ -1,0 +1,12 @@
+name = "pedro.dev.br"
+license = "MIT"
+licenselink = "https://github.com/crossworth/pedro.dev.br/blob/master/themes/pedro.dev.br/LICENSE"
+description = "Tema para pedro.dev.br"
+homepage = "https://github.com/crossworth/pedro.dev.br/blob/master/themes/pedro.dev.br"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Pedro Henrique"
+  homepage = "pedro.dev.br"
